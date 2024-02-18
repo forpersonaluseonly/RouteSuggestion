@@ -1,6 +1,5 @@
 Flask
 osmnx
 networkx
-matplotlib.pyplot
-BytesIO
-io
+matplotlib
+bytesioex
