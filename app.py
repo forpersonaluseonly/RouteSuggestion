@@ -12,7 +12,7 @@ app.config['UPLOAD_FOLDER'] = 'static/images'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)  # Create the directory if it doesn't exist
 
 # Load your own .osm file
-G = ox.graph_from_xml(r"C:\Users\Laurence\Desktop\College\[BSCS] 3rd Year\First Semester\Software Enginbeering\Map Shortest path suggestion using A(start) ALgorithm\ExperimentCodes\Web\map.osm")
+G = ox.graph_from_xml(r"map.osm")
 
 @app.route('/')
 def display_map():
