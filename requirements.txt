@@ -3,3 +3,4 @@ osmnx
 networkx
 matplotlib
 bytesioex
+Gunicorn
