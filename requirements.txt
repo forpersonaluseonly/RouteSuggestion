@@ -1,6 +1,6 @@
 Flask
 osmnx
 networkx
-matplotlib
-bytesioex
-Gunicorn
+matplotlib.pyplot
+BytesIO
+io

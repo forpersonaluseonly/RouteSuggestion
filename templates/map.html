@@ -7,16 +7,21 @@
 <body>
     <div class="left-content">
 		<center>
+		<h3> Hello {{ name }}! </h3>
         <h1>Map Routing Suggestion Using A* Algorithm</h1>
         <h6>Developed by:</h6>
         <h6>Laurence O. Magistrado <br> Rodney Celetaria <br> Uriel Miguel Nobleza</h6>
         <form method="post" action="/calculate">
+			<input type="hidden" name="name" value="{{ name }}">
             <label for="source_node">Source Node:</label>
             <input type="text" name="source_node" id="source_node" required><br>
             <label for="target_node">Target Node:</label>
             <input type="text" name="target_node" id="target_node" required><br>
             <input type="submit" value="Calculate Shortest Path">
         </form>
+		<br>
+		<br>
+		<a href="/logout"> Logout </a>
 		</center>
     </div>
     <div class="right-content">
