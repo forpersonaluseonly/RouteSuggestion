@@ -3,5 +3,3 @@ osmnx==1.1.1
 networkx==2.6.3
 Pillow==8.4.0
 matplotlib==3.4.3
-BytesIO
-io
